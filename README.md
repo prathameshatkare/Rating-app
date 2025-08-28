@@ -1,21 +1,18 @@
-Here’s a well-structured `README.md` for your project based on the details you provided:
-
-````markdown
 # FullStack Intern Coding Challenge
 
 ## Tech Stack
-- **Backend:** ExpressJs / Loopback / NestJs  
+- **Backend:** Express.js / Loopback / Nest.js  
 - **Database:** PostgreSQL / MySQL  
-- **Frontend:** ReactJs  
+- **Frontend:** React.js  
 
 ---
 
 ## Project Overview
-This is a web application that allows users to submit ratings for stores registered on the platform. Ratings range from **1 to 5**.  
+This web application allows users to submit ratings for stores registered on the platform. Ratings range from **1 to 5**.  
 
-A **single login system** is implemented for all users. Based on their roles, users have access to different functionalities upon logging in.  
+A **single login system** is implemented for all users. Based on their roles, users have access to different functionalities after logging in.  
 
-Normal users can sign up through a registration page.  
+Normal users can sign up via a registration page.  
 
 ---
 
@@ -78,56 +75,44 @@ Normal users can sign up through a registration page.
 ## Additional Notes
 - All tables support sorting (ascending/descending) for key fields like Name, Email, etc.  
 - Best practices are followed for both frontend and backend development  
-- Database schema design adheres to best practices  
+- Database schema design follows best practices  
 
 ---
 
 ## How to Run
+
 1. Clone the repository:  
 ```bash
 git clone https://github.com/prathameshatkare/Rating-app.git
-````
+```
 
-2. Install backend dependencies:
-
+2. Install backend dependencies:  
 ```bash
 cd store-ratings-backend
 npm install
 ```
 
-3. Configure database and run migrations.
-4. Start backend server:
+3. Configure the database and run migrations.
 
+4. Start the backend server:  
 ```bash
 npm start
 ```
 
-5. Install frontend dependencies:
-
+5. Install frontend dependencies:  
 ```bash
 cd store-ratings-frontend
 npm install
 ```
 
-6. Start frontend server:
-
+6. Start the frontend server:  
 ```bash
 npm start
 ```
 
-7. Open [http://localhost:3000](http://localhost:3000) in your browser
+7. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
 ## License
-
 This project is licensed under the MIT License.
-
-```
-
----
-
-If you want, I can **also create a shorter, cleaner version** that looks professional for GitHub and includes **screenshots, badges, and a table of contents**. It will make your project look more polished for recruiters or judges.  
-
-Do you want me to do that?
-```
